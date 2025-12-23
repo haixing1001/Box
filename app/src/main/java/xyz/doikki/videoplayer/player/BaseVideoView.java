@@ -580,12 +580,21 @@ public class BaseVideoView<P extends AbstractPlayer> extends FrameLayout
 
         if (mHandler != null) {
             Message sendmsg = Message.obtain();
-            sendmsg.what = 300;
+            
+            // 根据 code 参数判断发送的消息类型
+            if (code == -1) {
+                sendmsg.what = 300; // 对应 code 为 -1 的逻辑
+            } else if (code == -2) {
+                sendmsg.what = 400; // 对应 code 为 -2 的逻辑
+            } else {
+                sendmsg.what = 300; // 默认或者其他错误处理
+            }
+            
             sendmsg.obj = msg;
             mHandler.sendMessage(sendmsg);
         }
     }
-
+                
     /**
      * 视频播放完成回调
      */
