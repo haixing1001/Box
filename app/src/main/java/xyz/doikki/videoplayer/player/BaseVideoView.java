@@ -580,7 +580,7 @@ public class BaseVideoView<P extends AbstractPlayer> extends FrameLayout
 
         if (mHandler != null) {
             Message sendmsg = Message.obtain();
-            sendmsg.what = 300;
+            sendmsg.what = code;
             sendmsg.obj = msg;
             mHandler.sendMessage(sendmsg);
         }
