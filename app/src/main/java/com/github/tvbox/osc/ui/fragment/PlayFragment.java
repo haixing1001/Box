@@ -228,7 +228,7 @@ public class PlayFragment extends BaseLazyFragment {
                         setTip("加载完成，嗅探视频中", true, false);
                     }
                 } else if (msg.what == 300) {
-                    setTip((String)msg.obj, false, false);
+                    //setTip((String)msg.obj, false, false);
                 }
                 return false;
             }
