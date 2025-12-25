@@ -133,14 +133,14 @@ dependencies {
     implementation 'com.orhanobut:hawk:2.0.1'
     implementation 'net.sourceforge.streamsupport:android-retrofuture:1.7.4'
     implementation 'androidx.annotation:annotation:1.8.2'
-    implementation "androidx.media3:media3-exoplayer:1.9.0"
-    implementation "androidx.media3:media3-ui:1.9.0"
-    implementation "androidx.media3:media3-exoplayer-dash:1.9.0"
-    implementation "androidx.media3:media3-exoplayer-hls:1.9.0"
-    implementation "androidx.media3:media3-exoplayer-rtsp:1.9.0"
-    implementation "androidx.media3:media3-datasource-rtmp:1.9.0"
-    implementation 'androidx.media3:media3-common:1.9.0'
-    implementation "com.github.anilbeesetti.nextlib:nextlib-media3ext:0.7.1"
+    implementation "androidx.media3:media3-exoplayer:1.8.0"
+    implementation "androidx.media3:media3-ui:1.8.0"
+    implementation "androidx.media3:media3-exoplayer-dash:1.8.0"
+    implementation "androidx.media3:media3-exoplayer-hls:1.8.0"
+    implementation "androidx.media3:media3-exoplayer-rtsp:1.8.0"
+    implementation "androidx.media3:media3-datasource-rtmp:1.8.0"
+    implementation 'androidx.media3:media3-common:1.8.0'
+    implementation "com.github.anilbeesetti.nextlib:nextlib-media3ext:1.8.0"
 
 
 
