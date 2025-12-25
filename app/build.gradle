@@ -140,7 +140,7 @@ dependencies {
     implementation "androidx.media3:media3-exoplayer-rtsp:1.8.0"
     implementation "androidx.media3:media3-datasource-rtmp:1.8.0"
     implementation 'androidx.media3:media3-common:1.8.0'
-    implementation "com.github.anilbeesetti.nextlib:nextlib-media3ext:1.8.0"
+    implementation "com.github.anilbeesetti.nextlib:nextlib-media3ext:1.8.0-0.9.0"
 
 
 
