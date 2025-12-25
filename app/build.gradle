@@ -129,7 +129,7 @@ dependencies {
     implementation('com.thoughtworks.xstream:xstream:1.4.20') {
         exclude group: 'xmlpull', module: 'xmlpull'
     }
-    def media3_version = '1.4.0'
+    def media3_version = '1.5.0'
     implementation 'org.greenrobot:eventbus:3.3.1'
     implementation 'com.orhanobut:hawk:2.0.1'
     implementation 'net.sourceforge.streamsupport:android-retrofuture:1.7.4'
@@ -141,7 +141,7 @@ dependencies {
     implementation "androidx.media3:media3-exoplayer-rtsp:${media3_version}"
     implementation "androidx.media3:media3-datasource-rtmp:${media3_version}"
     implementation 'androidx.media3:media3-common:${media3_version}'
-    implementation "com.github.anilbeesetti.nextlib:nextlib-media3ext:0.8.0"
+    implementation "com.github.anilbeesetti.nextlib:nextlib-media3ext:0.7.1"
 
 
 
